@@ -158,3 +158,31 @@ hr {
       font-weight: 200;
   }
   
+  @media screen and (max-width:590px) {
+      .temperature {
+          flex-direction: column;
+      }
+      .monitoring {
+          width:90%;
+          margin-top:20px;
+      }
+
+      .temperature-control {
+          width:90%;
+          margin-top:20px;
+      }
+
+      .co2_and_humidity {
+          flex-direction: column;
+      }
+
+      .co2 {
+          width:90%;
+          margin-top:20px;
+      }
+
+      .humidity {
+          width:90%;
+          margin-top:20px;
+      }
+  }
